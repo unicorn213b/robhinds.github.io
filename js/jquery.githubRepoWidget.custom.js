@@ -58,7 +58,8 @@
 						var repo = results.data[repoIndex];
 						var date, pushed_at = 'unknown',
 							vendorUrl = "https://github.com/" + vendor,
-							repoUrl = "https://sourcegraph.com/github.com/" + vendor + '/' + repo.name;
+							repoUrl = "https://github.com/" + vendor + '/' + repo.name,
+							srcUrl = "https://sourcegraph.com/github.com/" + vendor + '/' + repo.name;
 
 						var $widget = $(
 							'<div class="github-box repo">'
@@ -66,7 +67,7 @@
 							+'<h3>'
 							+'<a class="owner" href="' + vendorUrl + '" title="' + vendorUrl + '">' + vendor + '</a>'
 							+'/'
-							+'<a class="repo" href="' + repoUrl + '" title="' + repoUrl + '">' + repo.name + '</a>'
+							+'<a class="repo" href="' + srcUrl + '" title="' + srcUrl + '">' + repo.name + '</a>'
 							+'</h3>'
 							+'<div class="github-stats">'
 							+'<a class="watchers" href="' + repoUrl + '/watchers" title="See watchers">?</a>'
