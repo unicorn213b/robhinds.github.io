@@ -34,14 +34,14 @@
 			    nd = new Date(utc + (3600000*offset));
 
 			    // return time as a string
-			    return "The local time is " + nd.toLocaleString();
+			    return "The local time is " + nd.toLocaleString().replace(/:\d+ /, ' ');
 
 			}
 		</script>  		
 <div id="textDiv"></div>  
 <script type="text/javascript">  
     var div = document.getElementById("textDiv");  
-    div.textContent = calcTime('kirkland', '-8'); 
+    div.textContent = calcTime('kirkland', '-7'); 
     var text = div.textContent;  
 </script>  
 			
