@@ -34,7 +34,7 @@
 			    nd = new Date(utc + (3600000*offset));
 
 			    // return time as a string
-			    return "The local time is " + nd.toLocaleString().replace(/:\d+ /, ' ');
+			    return "The local time is " + nd.toLocaleString(navigator.language, {hour: '2-digit', minute:'2-digit'});
 
 			}
 		</script>  		
