@@ -10,17 +10,18 @@ markdown: kramdown
 #Links that will appear in the navbar
 primarylinks:
  - title: GitHub
-   url: https://github.com/unicorn213b
+   url: https://github.com/yeongkib
  - title: LinkedIn
    url: https://www.linkedin.com/
    
 #Any buzzword skills you want to include
 skills:
- - C/C++14
+ - C/C++(14, 17)
  - STL
  - FmodEX
  - MPR
  - OpenGL
+ - GLFW
  - Deferred Shading
  - GLSL
 
