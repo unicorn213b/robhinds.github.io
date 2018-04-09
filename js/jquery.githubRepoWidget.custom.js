@@ -57,9 +57,9 @@
 					$.each(results.data, function( repoIndex) {
 						var repo = results.data[repoIndex];
 						var date, pushed_at = 'unknown',
-							vendorUrl = "https://github.com/" + vendor,
-							repoUrl = "https://github.com/" + vendor + '/' + repo.name,
-							srcUrl = "https://sourcegraph.com/github.com/" + vendor + '/' + repo.name;
+							vendorUrl = "http://github.com/" + vendor,
+							repoUrl = "http://github.com/" + vendor + '/' + repo.name,
+							srcUrl = "http://sourcegraph.com/github.com/" + vendor + '/' + repo.name;
 
 						var $widget = $(
 							'<div class="github-box repo">'
