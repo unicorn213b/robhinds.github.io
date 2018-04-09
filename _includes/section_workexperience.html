@@ -5,21 +5,23 @@
 	<div class="content-rounded-panel">
 		<div>
 			<table class="table table-striped table-hover table-condensed">
-			<table>
-				{% for role in site.roles %}
-					<tr>	
-						<td><a style="cursor: pointer;">{{role.title}}</a></td>
-						<td style="text-align: right;">{{role.start}}-{{role.end}}</td>
-					</tr>
-					<tr>
-						<td><a style="cursor: pointer;">{{role.employer}}</a></td>
-						<td style="text-align: right;">{{role.size}}</td>
-					</tr>
-					<tr>
-						<td colspan="2">{{role.description}}</td>
-					</tr>
-				{% endfor %}
-				</tbody>
+					{% for role in site.roles %}
+					<thead>
+						<tr>	
+							<td><a style="cursor: pointer;">{{role.title}}</a></td>
+							<td style="text-align: right;">{{role.start}}-{{role.end}}</td>
+						</tr>
+						<tr>
+							<td><a style="cursor: pointer;">{{role.employer}}</a></td>
+							<td style="text-align: right;">{{role.size}}</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td colspan="2">{{role.description}}</td>
+						</tr>
+					{% endfor %}
+					</tbody>
 			</table>
 		</div>
 		<br>
