@@ -11,9 +11,7 @@
 					<li><a target='_blank' href="{{link.url}}">{{link.title}}</a></li>
 				{% endfor %}
 				{% for link in site.resume %}
-					<li>
-				<a onclick="document.getElementById('emb').src="{{link.url}}"">{{link.title}}</a>
-<embed id="emb" src="default"></embed></li>
+					<li><a target='_blank' href="{{link.url}}">{{link.title}}</a></li>
 				{% endfor %}
 			</ul>
 		</div>
