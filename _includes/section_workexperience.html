@@ -9,17 +9,17 @@
 					<thead>
 						<tr>	
 							<th>
-								<a style="cursor: pointer;"><strong><p>{{role.title}}</p></strong>
-								<a style="cursor: pointer;"><strong><p>{{role.employer}}</p></strong></a>
+								<a style="cursor: pointer;"><strong>{{role.title}}</strong>
+								<a style="cursor: pointer;"><strong>{{role.employer}}</strong></a>
 							</th>
-							<th style="text-align: right;"><p>{{role.start}} - {{role.end}}</p>
-								<p>{{role.size}}</p>
+							<th style="text-align: right;"><p>{{role.start}} - {{role.end}}
+								{{role.size}}
 							</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td colspan="2" class="hidden-sm hidden-xs">{{role.description}}</td>
+							<td colspan="2" class="hidden-sm hidden-xs"><p>{{role.description}}</p></td>
 							<p>&nbsp;</p>
 						</tr>
 					</tbody>
