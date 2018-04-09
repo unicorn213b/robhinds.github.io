@@ -6,18 +6,19 @@
 		<div>
 			<table class="table table-striped table-hover table-condensed">
 			<table>
-				<tbody>
-				<tr>
-				<td><a style="cursor: pointer;">{{role.title}}</a></td>
-				<td style="text-align: right;">{{role.start}}-{{role.end}}</td>
-				</tr>
-				<tr>
-				<td><a style="cursor: pointer;">{{role.employer}}</a></td>
-				<td style="text-align: right;">{{role.size}}</td>
-				</tr>
-				<tr>
-				<td colspan="2">{{role.description}}</td>
-				</tr>
+				{% for role in site.roles %}
+					<tr>	
+						<td><a style="cursor: pointer;">{{role.title}}</a></td>
+						<td style="text-align: right;">{{role.start}}-{{role.end}}</td>
+					</tr>
+					<tr>
+						<td><a style="cursor: pointer;">{{role.employer}}</a></td>
+						<td style="text-align: right;">{{role.size}}</td>
+					</tr>
+					<tr>
+						<td colspan="2">{{role.description}}</td>
+					</tr>
+				{% endfor %}
 				</tbody>
 			</table>
 		</div>
