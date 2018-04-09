@@ -30,11 +30,17 @@ blogfeed:
 
 #Work experience is required
 roles:
- - title: Intern
+ - title: Associate Programmer
    start: Mar 2010
    end: Aug 2010
    employer: CobaltRay - Seoul, Korea
-   description: .
+   description: Cobalt Ray Co. Ltd. engages in software and hardware development and manufacture. I developed a tool to sync sheet music to real audio while I was learning new API. It has helped content developers to create content more easily and quickly. 
+
+ - title: Computer Technician
+   start: Jan 2013
+   end: Nov 2014
+   employer: Republic of Korea Marine Corps - Marine 1st Div
+   description: Developed and maintained a site to manage enlisted resources on the intranet from scratch. Also, created an integrated bulletin board site for smooth communication between departments.
 
 #Education is required
 education:
@@ -42,6 +48,10 @@ education:
    date: 2018
    subject: Computer Science in Real-Time Interactive Simulation
    school: Digipen Institute of Technology (Redmond, WA)
+ - level: Minor
+   date:
+   subject: Mathematics
+   school:
 
 #This section is optional (as is the image link below)
 coursera: 
