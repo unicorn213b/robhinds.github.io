@@ -8,11 +8,11 @@
 					{% for role in site.roles %}
 					<thead>
 						<tr>	
-							<td><a style="cursor: pointer;">{{role.title}}</a></td>
+							<td><a style="cursor: pointer;"><strong>{{role.title}}</strong></a></td>
 							<td style="text-align: right;">{{role.start}}-{{role.end}}</td>
 						</tr>
 						<tr>
-							<td><a style="cursor: pointer;">{{role.employer}}</a></td>
+							<td><a style="cursor: pointer;"><strong>{{role.employer}}</strong></a></td>
 							<td style="text-align: right;">{{role.size}}</td>
 						</tr>
 					</thead>
@@ -20,6 +20,7 @@
 						<tr>
 							<td colspan="2">{{role.description}}</td>
 						</tr>
+						<br></br>
 					{% endfor %}
 					</tbody>
 			</table>
