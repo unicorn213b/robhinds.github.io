@@ -55,7 +55,7 @@ projects:
  - role: Graphics and Gameplay Programmer - Alaska Roll
    start: Sep 2016
    end: Apr 2017
-   short_description: "3D quarter view multishooter" - Custom C++ 3D engine
+   short_description: 3D quarter view multishooter - Custom C++ 3D engine
    size: 5
    did: Programmed deferred shading based graphic render system using OpenGL
 Designed the rule base and programmed the play
@@ -64,7 +64,7 @@ Programmed performance analysis tracker
  - role: Gameplay Programmer, Designer - AMAZE
    start: Sep 2010
    end: Apr 2011
-   short_description: "2D puzzle shooter" - Custom C++ 2D engine
+   short_description: 2D puzzle shooter - Custom C++ 2D engine
    size: 7
    did: Programmed tile map based level editor
  Designed all the game levels
