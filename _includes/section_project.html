@@ -21,11 +21,11 @@
 					<tbody>
 						<tr>
 							<td colspan="2" class="hidden-sm hidden-xs">
-								<li>{{project.did1}}</li>
-								<li>{{project.did2}}</li>
-								<li>{{project.did3}}</li>
-								<li>{{project.did4}}</li>
-								<li>{{project.did5}}</li>
+								{% if project.did1 %}<li>{{project.did1}}</li>{% endif %}
+								{% if project.did2 %}<li>{{project.did2}}</li>{% endif %}
+								{% if project.did3 %}<li>{{project.did3}}</li>{% endif %}
+								{% if project.did4 %}<li>{{project.did4}}</li>{% endif %}
+								{% if project.did5 %}<li>{{project.did5}}</li>{% endif %}
 							</td>
 						</tr>
 					</tbody>
