@@ -57,14 +57,22 @@ projects:
    end: Apr 2017
    short_description: 3D quarter view multishooter - Custom C++ 3D engine
    size: 5
-   did: Programmed deferred shading based graphic render system using OpenGL, Designed the rule base and programmed the play, Programmed performance analysis tracker
+   did1: Programmed deferred shading based graphic render system using OpenGL
+   did2: Designed the rule base and programmed the play
+   did3: Programmed performance analysis tracker
+   did4:
+   did5:
 
  - role: Gameplay Programmer, Designer - AMAZE
    start: Sep 2010
    end: Apr 2011
    short_description: 2D puzzle shooter - Custom C++ 2D engine
    size: 7
-   did: Programmed tile map based level editor, Designed all the game levels, Designed the HUD and menu system, Programmed VFXs
+   did1: Programmed tile map based level editor
+   did2: Designed all the game levels
+   did3: Designed the HUD and menu system
+   did4: Programmed VFXs
+   did5:
 
 #Education is required
 education:
