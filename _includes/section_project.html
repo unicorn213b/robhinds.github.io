@@ -1,8 +1,8 @@
 <div class="rounded_panel txt_lightgrey">
 	<div class="top-rounded-panel grey-bg">
-		<h1>Work Experience</h1>
+		<h1>Projects</h1>
 	</div>
-	{% for role in site.roles %}
+	{% for project in site.project %}
 	<div class="content-rounded-panel">
 		<div>
 			<table class="table table-striped table-hover table-condensed">
@@ -10,17 +10,17 @@
 					<thead>
 						<tr>	
 							<th>
-								<a style="cursor: pointer;">{{role.title}}</a></br>
-								<a style="cursor: pointer;">{{role.employer}}</a>
+								<a style="cursor: pointer;">{{project.role}}</a></br>
+								<a style="cursor: pointer;">{{project.short_description}}</a>
 							</th>
-							<th style="text-align: right;">{{role.start}} - {{role.end}}</br>
-								{{role.size}}
+							<th style="text-align: right;">{{project.start}} - {{project.end}}</br>
+								{{project.size}}
 							</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td colspan="2" class="hidden-sm hidden-xs">{{role.description}}</td>
+							<td colspan="2" class="hidden-sm hidden-xs">{{project.did}}</td>
 						</tr>
 					</tbody>
 					
