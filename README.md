@@ -12,20 +12,21 @@ The other major command is Intelligence Command. Within a game, it determine the
 
 **Influence Map**
 
-![](https://github.com/yeongki/yeongki.github.io/img/fig1.png)
+![](https://github.com/yeongki/yeongki.github.io/blob/master/img/fig1.png)
 Figure 1 : My influence map is on green grid. All influence is coming from my units, buildings etc.
-![](https://github.com/yeongki/yeongki.github.io/img/fig2.png)
+![](https://github.com/yeongki/yeongki.github.io/blob/master/img/fig2.png)
 Figure 2 : Opponent influence map is on red grid. All influence is coming from opposing units, buildings etc.
-![](https://github.com/yeongki/yeongki.github.io/img/fig3.png)
+![](https://github.com/yeongki/yeongki.github.io/blob/master/img/fig3.png)
 Figure 3 : Tension map is on purple grid. Calculated as MY influence + Opponent influence. We can find where the huge battle will take place by using tension map.
-![](https://github.com/yeongki/yeongki.github.io/img/fig4.png)
+![](https://github.com/yeongki/yeongki.github.io/blob/master/img/fig4.png)
 Figure 4 : Vulnerability map is on white grid. Calculated as Tension map – Abs(Influence map). This tells where your opponent is vulnerable for attack.
-![](https://github.com/yeongki/yeongki.github.io/img/fig5.png)
+![](https://github.com/yeongki/yeongki.github.io/blob/master/img/fig5.png)
 Figure 5 : This shows how the influence map is used to kite. The flying units tried to find a safe path and run away after attacking weak units.
 
 ## Achievement
 ![](https://github.com/yeongki/yeongki.github.io/img/feb14.2018_6th.jpg)
 
+![](https://sscaitournament.com/images/achievements/equalOpportunity.png =50x)
 <img src="https://sscaitournament.com/images/achievements/equalOpportunity.png" alt="Drawing" style="width: 50px;"/> Equal opportunity : Win at least one game against all 3 races.
 <img src="https://sscaitournament.com/images/achievements/winningStreak3.png" alt="Drawing" style="width: 50px;"/> Winning Streak 3 : Win 3 games in a row.
 <img src="https://sscaitournament.com/images/achievements/experienced.png" alt="Drawing" style="width: 50px;"/> Experienced : Have at least 50% win rate over 4 days.
