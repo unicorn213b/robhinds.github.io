@@ -3,6 +3,36 @@
 	{% if site.twitter_username %}
 		<p><a target='_blank' href="https://twitter.com/{{site.twitter_username}}">@{{site.twitter_username}}</a></p>
 	{% endif %}
-	<p>Kirkland, US</p>
+	<p><script language="JavaScript">
+
+			// function to calculate local time
+			// in a different city
+			// given the city's UTC offset
+			function calcTime(city, offset) {
+
+			    // create Date object for current location
+			    d = new Date();
+
+			    // convert to msec
+			    // add local time zone offset 
+			    // get UTC time in msec
+			    utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+
+			    // create new Date object for different city
+			    // using supplied offset
+			    nd = new Date(utc + (3600000*offset));
+
+			    // return time as a string
+				//https://stackoverflow.com/questions/19407305/how-to-show-only-hours-and-minutes-from-javascript-date-tolocaletimestring?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+			    return nd.toLocaleString(navigator.language, {hour: '2-digit', minute:'2-digit'}) + " Kirkland, WA";
+
+			}
+		</script>  		
+<div id="textDiv"></div>  
+<script type="text/javascript">  
+    var div = document.getElementById("textDiv");  
+    div.textContent = calcTime('kirkland', '-7'); 
+    var text = div.textContent;  
+</script>  </p>
 	<br>
 </footer>
