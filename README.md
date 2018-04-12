@@ -37,9 +37,13 @@ Figure 5 : This shows how the influence map is used to kite. The flying units tr
 ![](https://github.com/yeongki/yeongki.github.io/blob/master/img/feb14.2018_6th.jpg)
 
 <img src="https://sscaitournament.com/images/achievements/equalOpportunity.png" width="50"> Equal opportunity : Win at least one game against all 3 races.
+
 <img src="https://sscaitournament.com/images/achievements/winningStreak3.png" width="50"> Winning Streak 3 : Win 3 games in a row.
+
 <img src="https://sscaitournament.com/images/achievements/winningStreak5.png" width="50"> Winning Streak 5 : Win 5 games in a row.
+
 <img src="https://sscaitournament.com/images/achievements/experienced.png" width="50"> Experienced : Have at least 50% win rate over 4 days.
+
 <img src="https://sscaitournament.com/images/achievements/veteran.png" width="50"> Veteran : Have at least 65% win rate over 4 days.
 
 ## Reference
