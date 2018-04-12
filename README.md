@@ -17,17 +17,21 @@ The other major command is Intelligence Command. Within a game, it determine the
 
 Figure 1 : My influence map is on green grid. All influence is coming from my units, buildings etc.
 
+
 ![](https://github.com/yeongki/yeongki.github.io/blob/master/img/fig2.png)
 
 Figure 2 : Opponent influence map is on red grid. All influence is coming from opposing units, buildings etc.
+
 
 ![](https://github.com/yeongki/yeongki.github.io/blob/master/img/fig3.png)
 
 Figure 3 : Tension map is on purple grid. Calculated as MY influence + Opponent influence. We can find where the huge battle will take place by using tension map.
 
+
 ![](https://github.com/yeongki/yeongki.github.io/blob/master/img/fig4.png)
 
 Figure 4 : Vulnerability map is on white grid. Calculated as Tension map – Abs(Influence map). This tells where your opponent is vulnerable for attack.
+
 
 ![](https://github.com/yeongki/yeongki.github.io/blob/master/img/fig5.png)
 
