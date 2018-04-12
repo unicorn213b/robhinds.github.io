@@ -26,6 +26,7 @@ skills:
  - MPR
  - OpenGL
  - GLFW
+ - PBR
  - Deferred Shading
  - GLSL
 
@@ -52,33 +53,44 @@ roles:
 
 #project is required
 projects:
+ - role: AI Programmer - Starcraft : Broodwar
+   start: May 2017
+   end: Present
+   short_description: A custom AI bot with influence map, BWAPI, C++
+   size: Solo Project
+   did1: Researched, evaluated, and designed the conceptual model for the real-time simulation game from scratch
+   did2: Developed various data structures and algorithms to make dynamic strategies
+   did3: Integrated 3rd party library (map analyzer), Implemented custom path finder for the efficient movement
+   did4: Examined the performance and optimized the system <b>300%</b> faster than former version by special data structure
+   did5:
+   
  - role: Graphics and Gameplay Programmer - Alaska Roll
    start: Sep 2016
    end: Apr 2017
    short_description: 3D quarter view multishooter - Custom C++ 3D engine
-   size: 5
-   did1: Programmed deferred shading based graphic render system using OpenGL
-   did2: Designed the rule base and programmed the play
-   did3: Programmed performance analysis tracker
-   did4:
+   size: 5 Person Team
+   did1: Built a custom deferred shading based graphic render system using OpenGL which increases performance and stability
+   did2: Led three programmers with task prioritization and delegation to best meet deadlines and milestone expectations
+   did3: Assisted physics programmer to build collision system for better performance; O(n^3) to O(n^2)
+   did4: Designed the rule base and programmed multiple aspects including AI and basic gameplay
    did5:
 
  - role: Gameplay Programmer, Designer - AMAZE
    start: Sep 2010
    end: Apr 2011
    short_description: 2D puzzle shooter - Custom C++ 2D engine
-   size: 7
-   did1: Programmed tile map based level editor
-   did2: Designed all the game levels
-   did3: Designed the HUD and menu system
-   did4: Programmed VFXs
+   size: 7 Person Team
+   did1: Created a tool that allows designer to procedurally generate tile map without difficulty
+   did2: Constructed particle engine, text rendering systems and UI, increasing creative visual appeal in the game
+   did3: Wrote scalable gameplay components allowing designers to iterate on 3 bosses and 8 enemies across 5 levels
+   did4: Designed, implemented, tested, and iterated on the game’s tutorial alongside the lead designer
    did5:
 
 #Education is required
 education:
  - level: Bachelor of Science (B.Sc.)
    date: 2018
-   subject: Computer Science in Real-Time Interactive Simulation
+   subject: Computer Science in Real-Time Interactive Simulation (ABET, CAC Accredited Program)
    school: Digipen Institute of Technology (Redmond, WA)
  - level: Minor
    date:
