@@ -53,7 +53,7 @@ roles:
 
 #project is required
 projects:
- - role: AI Programmer - Starcraft : Broodwar
+ - role: AI Programmer - Starcraft Broodwar
    start: May 2017
    end: Present
    short_description: A custom AI bot with influence map, BWAPI, C++
