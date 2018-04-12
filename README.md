@@ -36,11 +36,10 @@ Figure 5 : This shows how the influence map is used to kite. The flying units tr
 ## Achievement
 ![](https://github.com/yeongki/yeongki.github.io/img/feb14.2018_6th.jpg)
 
-![](https://sscaitournament.com/images/achievements/equalOpportunity.png | width=50)
-<img src="https://sscaitournament.com/images/achievements/equalOpportunity.png" alt="Drawing" style="width: 50px;"/> Equal opportunity : Win at least one game against all 3 races.
-<img src="https://sscaitournament.com/images/achievements/winningStreak3.png" alt="Drawing" style="width: 50px;"/> Winning Streak 3 : Win 3 games in a row.
-<img src="https://sscaitournament.com/images/achievements/experienced.png" alt="Drawing" style="width: 50px;"/> Experienced : Have at least 50% win rate over 4 days.
-<img src="https://sscaitournament.com/images/achievements/veteran.png" alt="Drawing" style="width: 50px;"/> Veteran : Have at least 65% win rate over 4 days.
+![](https://sscaitournament.com/images/achievements/equalOpportunity.png&s=50) Equal opportunity : Win at least one game against all 3 races.
+![](https://sscaitournament.com/images/achievements/winningStreak3.png&s=50) Winning Streak 3 : Win 3 games in a row.
+![](https://sscaitournament.com/images/achievements/experienced.png&s=50) Experienced : Have at least 50% win rate over 4 days.
+![](https://sscaitournament.com/images/achievements/veteran.png&s=50) Veteran : Have at least 65% win rate over 4 days.
 
 ## Reference
 •	Influence Maps, https://gameschoolgems.blogspot.com/2009/12/influence-maps-i.html
