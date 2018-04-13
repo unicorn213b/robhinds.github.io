@@ -58,7 +58,7 @@ projects:
    size: Solo Project
    did1: Researched, evaluated, and designed the conceptual model for the real-time simulation game from scratch
    did2: Developed various data structures and algorithms to make dynamic strategies
-   did3: Integrated 3rd party library (map analyzer), Implemented custom path finder for the efficient movement
+   did3: Integrated 3rd party library (map analyzer), Implemented custom pathfinder for the efficient movement
    did4: Examined the performance and optimized the system <b>300%</b> faster than former version by special data structure
    did5:
    
