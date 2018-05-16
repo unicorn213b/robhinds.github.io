@@ -10,7 +10,7 @@ markdown: kramdown
 #Links that will appear in the navbar
 primarylinks:
  - title: GitHub
-   url: https://github.com/yeongki
+   url: https://github.com/yeongkib
  - title: LinkedIn
    url: https://linkedin.com/in/yeongkib
 resume:
@@ -100,7 +100,7 @@ coursera:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - yeongki/HOLD
+ - yeongkib/HOLD
 
 #Stackoverflow flair is optional
 stackoverflow:
