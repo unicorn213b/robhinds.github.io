@@ -42,8 +42,8 @@ roles:
    size: 
    description: 2 years military veteran who earned 3 commendations and awards for superior performance in academic, tactical and technical capacities. Promoted ahead of peers to mid-to-senior level supervisor in command of up to 40 soldiers. Earned highest marks in all leader evaluation reports, and recognized for mentoring and developing the best leaders. During that time, I developed and maintained a site to manage enlisted resources on the intranet from scratch. And established logistic analysis management information system.
 
- - title: Associate Programmer
-   start: Mar 2010
+ - title: Software Engineering internship
+   start: Apr 2010
    end: Aug 2010
    employer: CobaltRay - Seoul, Korea
    size: 
@@ -55,11 +55,11 @@ projects:
    start: May 2017
    end: Present
    short_description: A custom AI bot with influence map, BWAPI, C++
-   size: Solo Project
-   did1: Researched, evaluated, and designed the conceptual model for the real-time simulation game from scratch
-   did2: Developed various data structures and algorithms to make dynamic strategies
-   did3: Integrated 3rd party library (map analyzer), Implemented custom pathfinder for the efficient movement
-   did4: Examined the performance and optimized the system <b>300%</b> faster than former version by special data structure
+   size: Independent Project
+   did1: Designed the conceptual model for the real-time simulation game from scratch
+   did2: Optimized the system 300% faster than former version by union and bitwise operation
+   did3: Developed object manager, build order queue, and influence map to make dynamic strategies
+   did4: Integrated 3rd party library(map analyzer) and Implemented custom pathfinder for the efficient movement
    did5:
    
  - role: Graphics and Gameplay Programmer - Alaska Roll
@@ -67,10 +67,10 @@ projects:
    end: Apr 2017
    short_description: 3D quarter view multishooter - Custom C++ 3D engine
    size: 5 Person Team
-   did1: Built a custom deferred shading based graphic render system using OpenGL which increases performance and stability
-   did2: Led three programmers with task prioritization and delegation to best meet deadlines and milestone expectations
-   did3: Assisted physics programmer to build collision system for better performance; O(n^3) to O(n^2)
-   did4: Designed the rule base and programmed multiple aspects including AI and basic gameplay
+   did1: Built a custom deferred shading based graphics rendering system using OpenGL which increases performance and stability
+   did2: Devised rigid body physics system with physics programmer
+   did3: Designed the rule base and programmed multiple aspects including AI and basic gameplay
+   did4: Navigated 3 programmers with task prioritization and delegation to best meet most deadlines and milestone expectations
    did5:
 
  - role: Gameplay Programmer, Designer - AMAZE
@@ -81,8 +81,8 @@ projects:
    did1: Created a tool that allows designer to procedurally generate tile map without difficulty
    did2: Constructed particle engine, text rendering systems and UI, increasing creative visual appeal in the game
    did3: Wrote scalable gameplay components allowing designers to iterate on 3 bosses and 8 enemies across 5 levels
-   did4: Designed, implemented, tested, and iterated on the game’s tutorial alongside the lead designer
-   did5:
+   did4: Implemented the game’s tutorial alongside the lead designer
+   did5: This Project concluded due to mandatory military service
 
 #Education is required
 education:
