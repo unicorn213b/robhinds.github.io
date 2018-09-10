@@ -57,9 +57,9 @@ projects:
    short_description: A custom AI bot with influence map, BWAPI, C++
    size: Independent Project
    did1: Designed the conceptual model for the real-time simulation game from scratch
-   did2: Optimized the system 300% faster than former version by union and bitwise operation
-   did3: Developed object manager, build order queue, and influence map to make dynamic strategies
-   did4: Integrated 3rd party library(map analyzer) and Implemented custom pathfinder for the efficient movement
+   did2: Optimized the influence map system 300% faster than former version by union and bitwise operation
+   did3: Developed object manager, build order queue, and influence map to make dynamic strategies for AI bot to implement
+   did4: Integrated 3rd party library (map analyzer) and implemented custom pathfinder for the efficient movement
    did5:
    
  - role: Graphics and Gameplay Programmer - Alaska Roll
@@ -70,7 +70,7 @@ projects:
    did1: Built a custom deferred shading based graphics rendering system using OpenGL which increases performance and stability
    did2: Devised rigid body physics system with physics programmer
    did3: Designed the rule base and programmed multiple aspects including AI and basic gameplay
-   did4: Navigated 3 programmers with task prioritization and delegation to best meet most deadlines and milestone expectations
+   did4: Oversaw 3 programmers with task prioritization and delegation to best meet most deadlines and milestone expectations
    did5:
 
  - role: Gameplay Programmer, Designer - AMAZE
@@ -82,7 +82,7 @@ projects:
    did2: Constructed particle engine, text rendering systems and UI, increasing creative visual appeal in the game
    did3: Wrote scalable gameplay components allowing designers to iterate on 3 bosses and 8 enemies across 5 levels
    did4: Implemented the game’s tutorial alongside the lead designer
-   did5: This Project concluded due to mandatory military service
+   did5: This project concluded due to mandatory military service
 
 #Education is required
 education:
